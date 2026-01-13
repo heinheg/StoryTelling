@@ -17,7 +17,13 @@ namespace Talk.Runtime
         {
             public string portraitKey;
             public GameObject prefab;
-            public Sprite overrideSprite;
+        }
+
+        [Serializable]
+        private class SpriteMapping
+        {
+            public string spriteType;
+            public Sprite sprite;
         }
 
         private class PortraitInstance
@@ -47,6 +53,9 @@ namespace Talk.Runtime
         [SerializeField] private float characterInterval = 0.02f;
         [SerializeField, Range(0f, 1f)] private float inactivePortraitAlpha = 0.35f;
         [SerializeField] private List<PortraitPrefab> portraitPrefabs = new List<PortraitPrefab>();
+        [SerializeField] private List<SpriteMapping> spriteMappings = new List<SpriteMapping>();
+        [SerializeField] private Image backgroundImage;
+        [SerializeField] private List<SpriteMapping> backgroundMappings = new List<SpriteMapping>();
         [SerializeField] private bool advanceOnPointerDown = true;
         [SerializeField] private List<PositionAnchor> positionAnchors = new List<PositionAnchor>();
         [SerializeField] private RectTransform portraitRoot;
@@ -60,6 +69,9 @@ namespace Talk.Runtime
         private readonly Dictionary<int, RectTransform> _positionAnchorLookup = new Dictionary<int, RectTransform>();
         private readonly Dictionary<string, PortraitInstance> _activePortraitInstances = new Dictionary<string, PortraitInstance>(StringComparer.OrdinalIgnoreCase);
         private readonly Dictionary<int, PortraitInstance> _positionOccupants = new Dictionary<int, PortraitInstance>();
+        private readonly Dictionary<string, Sprite> _spriteLookup = new Dictionary<string, Sprite>(StringComparer.OrdinalIgnoreCase);
+        private readonly Dictionary<string, Sprite> _backgroundLookup = new Dictionary<string, Sprite>(StringComparer.OrdinalIgnoreCase);
+        private Sprite _defaultBackgroundSprite;
 
         private DialogueLineData _currentLine;
         private Coroutine _typingRoutine;
@@ -74,6 +86,9 @@ namespace Talk.Runtime
         {
             CachePortraits();
             CachePositionAnchors();
+            CacheSpriteMappings();
+            CacheBackgroundMappings();
+            CaptureDefaultBackground();
         }
 #endif
 
@@ -81,6 +96,9 @@ namespace Talk.Runtime
         {
             CachePortraits();
             CachePositionAnchors();
+            CacheSpriteMappings();
+            CacheBackgroundMappings();
+            CaptureDefaultBackground();
             LoadEpisode();
         }
 
@@ -185,6 +203,60 @@ namespace Talk.Runtime
             }
         }
 
+        private void CacheSpriteMappings()
+        {
+            _spriteLookup.Clear();
+            foreach (var mapping in spriteMappings)
+            {
+                if (mapping == null || string.IsNullOrWhiteSpace(mapping.spriteType) || mapping.sprite == null)
+                {
+                    continue;
+                }
+
+                var key = mapping.spriteType.Trim();
+                if (key.Length == 0 || _spriteLookup.ContainsKey(key))
+                {
+                    continue;
+                }
+
+                _spriteLookup.Add(key, mapping.sprite);
+            }
+        }
+
+        private void CacheBackgroundMappings()
+        {
+            _backgroundLookup.Clear();
+            foreach (var mapping in backgroundMappings)
+            {
+                if (mapping == null || string.IsNullOrWhiteSpace(mapping.spriteType) || mapping.sprite == null)
+                {
+                    continue;
+                }
+
+                var key = mapping.spriteType.Trim();
+                if (key.Length == 0 || _backgroundLookup.ContainsKey(key))
+                {
+                    continue;
+                }
+
+                _backgroundLookup.Add(key, mapping.sprite);
+            }
+        }
+
+        private void CaptureDefaultBackground()
+        {
+            if (backgroundImage == null)
+            {
+                _defaultBackgroundSprite = null;
+                return;
+            }
+
+            if (!Application.isPlaying || _defaultBackgroundSprite == null)
+            {
+                _defaultBackgroundSprite = backgroundImage.sprite;
+            }
+        }
+
         private void CachePositionAnchors()
         {
             _positionAnchorLookup.Clear();
@@ -272,6 +344,8 @@ namespace Talk.Runtime
             UpdateSpeakerUi(line);
             UpdatePortraits(line.portraitKey);
             ApplyPosition(line);
+            ApplyBackground(line);
+            ApplySpriteAppearance(line);
             StartTyping(line.text);
             LinePresented?.Invoke(line);
         }
@@ -352,6 +426,49 @@ namespace Talk.Runtime
             SetPortraitToAnchor(instance, anchor, line.position);
         }
 
+        private void ApplyBackground(DialogueLineData line)
+        {
+            if (backgroundImage == null)
+            {
+                return;
+            }
+
+            string code = line?.BGICode;
+            if (string.IsNullOrWhiteSpace(code))
+            {
+                // 아무 코드도 없으면 현재 배경을 유지합니다.
+                return;
+            }
+
+            var key = code.Trim();
+            if (_backgroundLookup.TryGetValue(key, out var sprite) && sprite != null)
+            {
+                backgroundImage.sprite = sprite;
+            }
+        }
+
+        private void ApplySpriteAppearance(DialogueLineData line)
+        {
+            if (line == null)
+            {
+                return;
+            }
+
+            string portraitKey = ExtractPrimaryPortraitKey(line.portraitKey);
+            if (string.IsNullOrEmpty(portraitKey))
+            {
+                return;
+            }
+
+            var instance = EnsurePortraitInstance(portraitKey);
+            if (instance == null)
+            {
+                return;
+            }
+
+            ApplySprite(portraitKey, instance, line.spriteType);
+        }
+
         private void SetImageAlpha(Image image, float alpha)
         {
             var color = image.color;
@@ -401,7 +518,6 @@ namespace Talk.Runtime
                 }
                 else
                 {
-                    ApplyPrefabSprite(portraitKey, existing);
                     return existing;
                 }
             }
@@ -433,22 +549,43 @@ namespace Talk.Runtime
                 image = image
             };
 
-            ApplyPrefabSprite(portraitKey, instance);
-
             _activePortraitInstances[portraitKey] = instance;
             return instance;
         }
 
-        private void ApplyPrefabSprite(string portraitKey, PortraitInstance instance)
+        private void ApplySprite(string portraitKey, PortraitInstance instance, string spriteType)
         {
             if (instance == null || instance.image == null)
             {
                 return;
             }
 
-            if (_portraitLookup.TryGetValue(portraitKey, out var prefabEntry) && prefabEntry != null && prefabEntry.overrideSprite != null)
+            Sprite targetSprite = null;
+
+            if (!string.IsNullOrWhiteSpace(spriteType))
             {
-                instance.image.sprite = prefabEntry.overrideSprite;
+                var key = spriteType.Trim();
+                if (_spriteLookup.TryGetValue(key, out var mappedSprite))
+                {
+                    targetSprite = mappedSprite;
+                }
+            }
+
+            if (targetSprite == null)
+            {
+                if (_portraitLookup.TryGetValue(portraitKey, out var prefabEntry) && prefabEntry != null && prefabEntry.prefab != null)
+                {
+                    var prefabImage = prefabEntry.prefab.GetComponentInChildren<Image>(true);
+                    if (prefabImage != null)
+                    {
+                        targetSprite = prefabImage.sprite;
+                    }
+                }
+            }
+
+            if (targetSprite != null && instance.image.sprite != targetSprite)
+            {
+                instance.image.sprite = targetSprite;
             }
         }
 
@@ -536,6 +673,11 @@ namespace Talk.Runtime
 
             _activePortraitInstances.Clear();
             _positionOccupants.Clear();
+
+            if (backgroundImage != null && _defaultBackgroundSprite != null)
+            {
+                backgroundImage.sprite = _defaultBackgroundSprite;
+            }
         }
 
         private DialogueLineData ResolveNextLine(DialogueLineData current)

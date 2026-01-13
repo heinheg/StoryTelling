@@ -2312,15 +2312,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7647059}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1272677867225930765, guid: 6014113482f9f504dbff02e6c33b4063, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2376,16 +2376,47 @@ MonoBehaviour:
   portraitPrefabs:
   - portraitKey: Detective
     prefab: {fileID: 2713372401883926215, guid: 1a0706a545c3b0d4f8782767afe59f75, type: 3}
-    overrideSprite: {fileID: -1336917865863758175, guid: c0d69e935c8068b4d8960408ffc3cb17, type: 3}
   - portraitKey: Assist
     prefab: {fileID: 2713372401883926215, guid: 1a0706a545c3b0d4f8782767afe59f75, type: 3}
-    overrideSprite: {fileID: -303514859511567822, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
   - portraitKey: Client
     prefab: {fileID: 2713372401883926215, guid: 1a0706a545c3b0d4f8782767afe59f75, type: 3}
-    overrideSprite: {fileID: 1497244102522448117, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
   - portraitKey: ???
     prefab: {fileID: 2713372401883926215, guid: 1a0706a545c3b0d4f8782767afe59f75, type: 3}
-    overrideSprite: {fileID: -5616382730382427546, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
+  spriteMappings:
+  - spriteType: Detective_0
+    sprite: {fileID: -1336917865863758175, guid: c0d69e935c8068b4d8960408ffc3cb17, type: 3}
+  - spriteType: Detective_1
+    sprite: {fileID: 268060239223242712, guid: c0d69e935c8068b4d8960408ffc3cb17, type: 3}
+  - spriteType: Detective_2
+    sprite: {fileID: 6645677701069712393, guid: c0d69e935c8068b4d8960408ffc3cb17, type: 3}
+  - spriteType: Detective_3
+    sprite: {fileID: 2293473836675229409, guid: c0d69e935c8068b4d8960408ffc3cb17, type: 3}
+  - spriteType: Assist_0
+    sprite: {fileID: -303514859511567822, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
+  - spriteType: Assist_1
+    sprite: {fileID: -6749928824364836223, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
+  - spriteType: Assist_2
+    sprite: {fileID: 3609078415305243652, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
+  - spriteType: Assist_3
+    sprite: {fileID: 893775085908014566, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
+  - spriteType: Client_0
+    sprite: {fileID: 1497244102522448117, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
+  - spriteType: Client_1
+    sprite: {fileID: 4824571843233761583, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
+  - spriteType: Assist_3
+    sprite: {fileID: 893775085908014566, guid: 3d605b32c0257154186ac1b191c577fd, type: 3}
+  - spriteType: Client_3
+    sprite: {fileID: -2553009604002093756, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
+  - spriteType: ???_0
+    sprite: {fileID: -5616382730382427546, guid: 334f4094bc5dfe544abdf1bd53188b6e, type: 3}
+  backgroundImage: {fileID: 1690016310}
+  backgroundMappings:
+  - spriteType: Office
+    sprite: {fileID: -1272677867225930765, guid: 6014113482f9f504dbff02e6c33b4063, type: 3}
+  - spriteType: Street
+    sprite: {fileID: -692078636420456154, guid: 1acb2efc22d25e64fbcbed901d9a78dd, type: 3}
+  - spriteType: Cafe
+    sprite: {fileID: 244484688046937412, guid: 562ee033f7595d246b4106dd33110ffa, type: 3}
   advanceOnPointerDown: 1
   positionAnchors:
   - positionKey: -1

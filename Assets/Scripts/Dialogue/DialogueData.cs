@@ -20,6 +20,9 @@ namespace Talk.Dialogue
         public string portraitKey;
         public int position;
         public string productionKey;
+        public string BGICode;
+        public string BGMCode;
+        public string spriteType;
         public string text;
         public string tags;
         public string nextNode;

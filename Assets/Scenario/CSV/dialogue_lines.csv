@@ -1,163 +1,163 @@
 ﻿episodeId,nodeId,lineId,order,speaker,portraitKey,position,SpriteType,productionKey,BGICode,BGMCode,text,tags,nextNode
-detective_short_ep1,n000,l000,0,탐정,Detective,-1,Normal,,BGI_detective_short_ep1,BGM_detective_short_ep1,조수야. 조수야.,,n001
-detective_short_ep1,n001,l001,1,조수,Assist,2,Normal,,,,케이크는 어제 13시 30분에 제가 사 왔으니 오늘은 소장님이 사 오실 차례인데요.,,n002
-detective_short_ep1,n002,l002,2,탐정,Detective,-1,Normal,,,,"아니아니. 그게 아니고, 오늘도 뭐 재밌는 일거리 없나?",,n003
-detective_short_ep1,n003,l003,3,조수,Assist,2,Normal,,,,"저는 아침 9시 30분부터 소장님이랑 쭉 같이 있었는데, 소장님도 모르면 저도 모르지 않을까요?",,n004
-detective_short_ep1,n004,l004,4,탐정,Detective,-1,Normal,,,,그래 그렇지. 너무 심심해서 그냥 물어봤어. 그런데 오늘따라 까칠하네.,,n005
-detective_short_ep1,n005,l005,5,조수,Assist,2,Normal,,,,그건-,,n006
-detective_short_ep1,n006,l006,6,탐정,Detective,-1,Normal,,,,"뭐, 아침부터 편의점에서 늘 마시던 커피가 떨어졌는데, 오는 길에 계단에서 발을 헛디뎌서 사 오던 물건까지 떨어지면 기분이 나쁘기는 하겠지.",,n007
-detective_short_ep1,n007,l007,7,조수,Assist,2,Normal,,,,쉬고 있어도 소장님의 머리는 잘 돌아가네요.,,n008
-detective_short_ep1,n008,l008,8,탐정,Detective,-1,Normal,,,,"어라, 어떻게 알았냐고는 안 물어봐?",,n009
-detective_short_ep1,n009,l009,9,조수,Assist,2,Normal,,,,말씀하신 대로 오늘 제가 기분이 까칠해서 소장님이 의기양양하게 설명하는 모습을 보면 기분이 더 안 좋아질 것 같아서요.,,n010
-detective_short_ep1,n010,l010,10,탐정,Detective,-1,Normal,,,,하지만 내 기분은 좋아지니까 설명할게.,,n011
-detective_short_ep1,n011,l011,11,조수,Assist,2,Normal,,,,에휴.,,n012
-detective_short_ep1,n012,l012,12,탐정,Detective,-1,Normal,,,,"설명이라 해봤자 네가 늘 마시던 커피가 아닌 걸 마시고, 편의점 봉투에 먼지가 좀 묻어있었던 것뿐이지만. 아, 우리 사무소로 올라오는 계단 상태가 좀 안 좋은 것도 있고.",,n013
-detective_short_ep1,n013,l013,13,조수,Assist,2,Normal,,,,할 일 없으면 계단이나 좀 손 보라고 건물주에게 연락하는 건 어떨까요.,,n014
-detective_short_ep1,n014,l014,14,탐정,Detective,-1,Normal,,,,"어제 발견하자마자 했지. 사람은 불렀고, 수리공이 오면 우리 쪽에 먼저 온다고 했으니까 조금 있으면-",,n015
-detective_short_ep1,n015,l015,15,stage,stage,1,,,,,쿵!,sfx,n016
-detective_short_ep1,n016,l016,16,조수,Assist,2,Normal,,,,음? 이게 무슨 소리지요?,,n017
-detective_short_ep1,n017,l017,17,???,???,3,Normal,,,,계십니까!,,n018
-detective_short_ep1,n018,l018,18,조수,Assist,2,Normal,,,,오. 이거 타이밍이 좋네요. 부른다던 수리공인 모양이네요.,,n019
-detective_short_ep1,n019,l019,19,탐정,Detective,-1,Normal,,,,나는 아닌 것 같은데. 손님이려나?,,n020
-detective_short_ep1,n020,l020,20,조수,Assist,2,Normal,,,,네?,,n021
-detective_short_ep1,n021,l021,21,탐정,Detective,-1,Normal,,,,일단 가서 열어봐.,,n022
-detective_short_ep1,n022,l022,22,stage,stage,1,,,,,철컥!,sfx,n023
-detective_short_ep1,n023,l023,23,조수,Assist,2,Normal,,,,어서오세요... 혹시 손님이신가요?,,n024
-detective_short_ep1,n024,l024,24,의뢰인,Client,3,Normal,,,,네. 여기가... 탐정 사무소가 맞나요? 의뢰 드릴 것이 있어서 왔습니다.,,n025
-detective_short_ep1,n025,l025,25,조수,Assist,2,Normal,,,,우와 진짜 손님. 이게 아니지. 어서 오세요! 손님!,,n026
-detective_short_ep1,n026,l026,26,의뢰인,Client,3,Normal,,,,오우.,,n027
-detective_short_ep1,n027,l027,27,stage,stage,1,,,,,조수 접대중,stage,n028
-detective_short_ep1,n028,l028,28,조수,Assist,2,Normal,,,,차는 괜찮으신가요?,,n029
-detective_short_ep1,n029,l029,29,의뢰인,Client,3,Normal,,,,네. 향이 좋네요.,,n030
-detective_short_ep1,n030,l030,30,탐정,Detective,-1,Normal,,,,그럼 말씀하고 싶으실 때 말해주세요. 저희 사무소에 오시는 분들은 항상 남이 듣기에는 이상한 일로 오시니까요. 그러니 마음의 준비가 다 되시면-,,n031
-detective_short_ep1,n031,l031,31,의뢰인,Client,3,Normal,,,,제 의뢰는... 제 옆집들. 그러니까 이웃들이 이상한 것 같아서 조사해주셨으면 합니다.,,n032
-detective_short_ep1,n032,l032,32,"탐정, 조수",AssistAndDetective,2,Normal,,,,오.,,
-detective_short_ep2,n000,l000,0,탐정,Detective,-1,Normal,,BGI_detective_short_ep2,BGM_detective_short_ep2,고객님. 그러니까... 옆집을 조사해달라고요? 요즘 잠을 제대로 못 주무시는 것과 관계가 있나요?,,n001
-detective_short_ep2,n001,l001,1,의뢰인,Client,3,Normal,,,,네. 어라 그건 어떻게?,,n002
-detective_short_ep2,n002,l002,2,탐정,Detective,-1,Normal,,,,"고객님의 상태가 눈에 띄게 안 좋아서요. 피곤하시니 계단을 올라오실 때 위험했을 거고요. 매일 8시간의 숙면을 취하는 저희 조수도 발을 헛디뎠는데, 잠을 제대로 못 주무신 고객님은 더 위험했겠지요.",,n003
-detective_short_ep2,n003,l003,3,조수,Assist,2,Normal,,,,"아, 그래서. 수리공이었다면 계단에 문제가 있는 걸 알았을 테니 문제가 생기지 않았겠네요.",,n004
-detective_short_ep2,n004,l004,4,탐정,Detective,-1,Normal,,,,요즘 조수의 이해력이 좋아져서 나는 기뻐. 수업료로 케이크 좀 사 올래?,,n005
-detective_short_ep2,n005,l005,5,탐정,Detective,-1,Normal,,,,그건 안 됨.,,n006
-detective_short_ep2,n006,l006,6,탐정,Detective,-1,Normal,,,,힝.,,n007
-detective_short_ep2,n007,l007,7,의뢰인,Client,3,Normal,,,,흠. 흠. 그럼 설명을 더 드려도 괜찮을까요?,,n008
-detective_short_ep2,n008,l008,8,탐정,Detective,-1,Normal,,,,네. 조금 기다리시면 조수가 사 오는 케이크도 드실 수 있는데. 피곤하시면 조금 쉬신 후에 말씀하셔도.,,n009
-detective_short_ep2,n009,l009,9,조수,Assist,2,Normal,,,,안 사 옵니다. 그리고 이런 상태에서 한숨 주무시면 기억에 혼란이 올 수도 있으니 피곤하셔도 지금 말씀하시는 게 좋을 겁니다.,,n010
-detective_short_ep2,n010,l010,10,의뢰인,Client,3,Normal,,,,"음. 그건 아쉽... 아니지, 그럼 말씀드리겠습니다. 시작은 이 주일 전 이었습니다.",,n011
-detective_short_ep2,n011,l011,11,의뢰인,Client,3,Normal,,,,여느 때처럼 퇴근하고 돌아오는 길이었습니다. 시간은 밤 10시. 항상 그때 돌아와서 시간은 정확합니다.,,n012
-detective_short_ep2,n012,l012,12,의뢰인,Client,3,Normal,,,,"그때 딱 제 옆방, 그러니까 일단 오른쪽 방인 203호에 사는 분과 가볍게 인사를 하고 스쳐 지나가지요. 그분은 그때 출근하시거든요.",,n013
-detective_short_ep2,n013,l013,13,의뢰인,Client,3,Normal,,,,"아, 제가 사는 곳은 원룸입니다. 1층은 상가고, 2층부터 방이 있지요. 한 방에 한 명씩 살고 있어요.",,n014
-detective_short_ep2,n014,l014,14,탐정,Detective,-1,Normal,,,,그러면 201호에 사는 분도 누구인지는 알고 계시나요?,,n015
-detective_short_ep2,n015,l015,15,의뢰인,Client,3,Normal,,,,네. 그분은 제가 출근할 때 집으로 돌아오시거든요. 그날 낮에도 같은 시간에 만나서 기억하고 있습니다.,,n016
-detective_short_ep2,n016,l016,16,탐정,Detective,-1,Normal,,,,알겠습니다. 그럼 계속해주세요.,,n017
-detective_short_ep2,n017,l017,17,의뢰인,Client,3,Normal,,,,네. 그리고 그날 밤... 씻고 잠에 들고 한 밤중... 냄새가 나기 시작했습니다. 잠에서 깰 정도의 냄새가.,,n018
-detective_short_ep2,n018,l018,18,탐정,Detective,-1,Normal,,,,냄새? 악취였나요? 잠을 제대로 주무시지 못할 정도의?,,n019
-detective_short_ep2,n019,l019,19,의뢰인,Client,3,Normal,,,,아니요. 빵 냄새였습니다.,,n020
-detective_short_ep2,n020,l020,20,탐정,Detective,-1,Normal,,,,네?,,n021
-detective_short_ep2,n021,l021,21,의뢰인,Client,3,Normal,,,,정말로 고소하고 약간의 달콤함까지 느껴져서 향만 맡아도 이 빵은 정말 맛있는 빵이라고 알 수 있는! 정말 맛있는 빵의 냄새가 났습니다.,,n022
-detective_short_ep2,n022,l022,22,탐정,Detective,-1,Normal,,,,네?,,
-detective_short_ep3,n000,l000,0,탐정,Detective,-1,Normal,,BGI_detective_short_ep3,BGM_detective_short_ep3,으음... 확실히 자려는 순간에 그런 냄새가 나면 잠을 설칠 수도 있지요.,,n001
-detective_short_ep3,n001,l001,1,의뢰인,Client,3,Normal,,,,네! 정말로 맛있는 빵의 냄새였거든요! 평생 맛있는 빵이 있는 곳이라면 휴가를 써서도 찾아가는 제가 한 번도 맡아보지못한 독특하면서도 반드시 맛있을 그런 빵의 냄새!,,n002
-detective_short_ep3,n002,l002,2,탐정,Detective,-1,Normal,,,,"네... 그런데 여기까지 오셨다는 건, 이웃중 한 분의 집에서 빵 냄새가 나는 것 같은데, 그걸 알고 싶으신 거군요?",,n003
-detective_short_ep3,n003,l003,3,의뢰인,Client,3,Normal,,,,네 맞습니다. 가능하면 어디서 산 빵인지도 알고 싶고요!,,n004
-detective_short_ep3,n004,l004,4,탐정,Detective,-1,Normal,,,,음. 그런데 잠을 못 주무신다면 냄새가 신경이 쓰이지 않을 정도로 배부르게 먹고 주무셔도 되지 않나요?,,n005
-detective_short_ep3,n005,l005,5,의뢰인,Client,3,Normal,,,,크윽. 그러기에는 빵 냄새가 너무 엄청나서 이제는 그 빵이 과연 어떤 맛일까 상상하느라 불면증이...!,,n006
-detective_short_ep3,n006,l006,6,탐정,Detective,-1,Normal,,,,"알겠습니다... 흐음. 그리고 밑에 있는 상가 건물에는 빵과 관련된 곳은 없는 모양이네요, 만약 있었다면 여기까지 오시지도 않았을 테니까요.",,n007
-detective_short_ep3,n007,l007,7,의뢰인,Client,3,Normal,,,,"네 맞습니다. 빵을 팔만한 곳으로 편의점이 있기는 했지만, 제가 찾던 빵은 없었습니다. 다른 곳은 전부 먹을 것과는 관련이 없고, 제가 퇴근한 후에는 사람도 없는 곳이고요.",,n008
-detective_short_ep3,n008,l008,8,탐정,Detective,-1,Normal,,,,혹시 이웃분들에게 직접 물어보신 적은 있나요?,,n009
-detective_short_ep3,n009,l009,9,의뢰인,Client,3,Normal,,,,"네. 물어봤습니다. 자세히 물어본 건 아니고, 스쳐 지나가면서 혹시 밤에 뭘 드시냐고 물어보기는 했지만, 전부 아니라고 하더군요.",,n010
-detective_short_ep3,n010,l010,10,탐정,Detective,-1,Normal,,,,혹시 정확한 대화는 기억하시나요?,,n011
-detective_short_ep3,n011,l011,11,의뢰인,Client,3,Normal,,,,"음... 201호분은... ‘저는 그 시간이면 자고 있습니다,’ 203호분은 ‘저는 그때 일하고 있습니다.’ 라고 했어요.",,n012
-detective_short_ep3,n012,l012,12,조수,Assist,2,Normal,,,,흠... 203호분은 일하러 가신다고 했었지요.,,n013
-detective_short_ep3,n013,l013,13,의뢰인,Client,3,Normal,,,,"하지만, 그 이후부터 지금까지도 빵 냄새는 계속 나고 있습니다... 보시다시피 아직도 잠은 제대로 못 자고 있고요.",,n014
-detective_short_ep3,n014,l014,14,탐정,Detective,-1,Normal,,,,으음... 확실히 이상하고 신고하기도 미묘한 사건이라 저희 쪽에 오실만 하네요.,,n015
-detective_short_ep3,n015,l015,15,의뢰인,Client,3,Normal,,,,네... 그런데 역시 가벼운 사건이라...,,n016
-detective_short_ep3,n016,l016,16,탐정,Detective,-1,Normal,,,,아니요. 재밌어 보이니까 가볼까요?,,n017
-detective_short_ep3,n017,l017,17,의뢰인,Client,3,Normal,,,,네?,,n018
-detective_short_ep3,n018,l018,18,탐정,Detective,-1,Normal,,,,일단 현장부터 가보지요. 안내해주세요. 저도 그 맛있는 빵이 뭔지 궁금해졌거든요.,,n019
-detective_short_ep3,n019,l019,19,조수,Assist,2,Normal,,,,저기 소장님. 수리공을 기다려야 하지 않나요?,,n020
-detective_short_ep3,n020,l020,20,탐정,Detective,-1,Normal,,,,"아. 으음, 조수를 두고 가면 적적하니... 혹시 케이크라도 드시면서 조금 기다려주실 수 있나요?",,n021
-detective_short_ep3,n021,l021,21,의뢰인,Client,3,Normal,,,,"어휴, 얼마든지 기다려도 됩니다.",,n022
-detective_short_ep3,n022,l022,22,탐정,Detective,-1,Normal,,,,"네, 그럼-",,n023
-detective_short_ep3,n023,l023,23,조수,Assist,2,Normal,,,,뭘 봐요. 소장님 차례니까 직접 사 오셔야지요.,,n024
-detective_short_ep3,n024,l024,24,탐정,Detective,-1,Normal,,,,힝.,,
-detective_short_ep4,n000,l000,0,탐정,Detective,-1,Normal,,BGI_detective_short_ep4,BGM_detective_short_ep4,"의뢰인분은 일하러 가셨고, 우리도 볼 건 다 봤고. 어때 조수?",,n001
-detective_short_ep4,n001,l001,1,조수,Assist,2,Normal,,,,"으음. 확실히 집 구조는 평범하네요. 그러니, 만약 옆방에서 정말로 밤에 몰래... 빵을 먹고 있다면 냄새가 날 수도 있겠어요.",,n002
-detective_short_ep4,n002,l002,2,탐정,Detective,-1,Normal,,,,가능성은 열어두자고. 만약에 누가 몰래 밑에 비어있는 상가에 들어와서 빵을 먹어도 냄새는 올라올 수 있겠지.,,n003
-detective_short_ep4,n003,l003,3,조수,Assist,2,Normal,,,,하지만-,,n004
-detective_short_ep4,n004,l004,4,탐정,Detective,-1,Normal,,,,"물론, 조수의 생각대로 이 주 동안 꾸준히, 같은 시간에 그럴 가능성이 작기는 하지만, 불가능한 일은 아니지. 사람은 워낙 예측할 수 없는 행동을 많이 하니까.",,n005
-detective_short_ep4,n005,l005,5,조수,Assist,2,Normal,,,,그런데 어떻게 조사를 시작하실 건가요? 이전처럼?,,n006
-detective_short_ep4,n006,l006,6,탐정,Detective,-1,Normal,,,,"그래 위험한 일은 아니니까 관찰부터 하자. 의뢰인이 사는 상가 쪽에는 시간을 때울 곳이 없지만, 근처에는 있으니까.",,n007
-detective_short_ep4,n007,l007,7,조수,Assist,2,Normal,,,,또 카페군요...,,n008
-detective_short_ep4,n008,l008,8,탐정,Detective,-1,Normal,,,,"여기 카페는 어떤 디저트를 팔지 기대되네. 요즘은 편의점에서도 맛있는 빵을 팔기는 해도, 이런 카페에 숨은 보물이 있단 말이지.",,n009
-detective_short_ep4,n009,l009,9,unknown,unknown,1,,,,,커피도 마찬가지지요.,,n010
-detective_short_ep4,n010,l010,10,stage,stage,1,,,,,띠링!,sfx,n011
-detective_short_ep4,n011,l011,11,탐정,Detective,-1,Normal,,,,"음, 언제 봐도 우리 조수는... 참 많이 마시네.",,n012
-detective_short_ep4,n012,l012,12,조수,Assist,2,Normal,,,,그러는 소장님은 언제 봐도 많이 드시고요.,,n013
-detective_short_ep4,n013,l013,13,탐정,Detective,-1,Normal,,,,"디저트를 전부 시켜보는 사람은 흔해도, 카페에서 파는 모든 커피를 시키는 사람은 드물지 않을까?",,n014
-detective_short_ep4,n014,l014,14,조수,Assist,2,Normal,,,,언제 다시 올지 모르는데 전부 마셔봐야지요.,,n015
-detective_short_ep4,n015,l015,15,탐정,Detective,-1,Normal,,,,나도 그래.,,n016
-detective_short_ep4,n016,l016,16,조수,Assist,2,Normal,,,,그리고 이 정도로 시키면 카페에서 꽤 오래 앉아 있어도 눈치는 안 주니까요.,,n017
-detective_short_ep4,n017,l017,17,탐정,Detective,-1,Normal,,,,"덕분에 서비스도 받은 적이 많지. 자, 그럼 일하자고.",,n018
-detective_short_ep4,n018,l018,18,stage,stage,1,,,,,관찰 타임,stage,n019
-detective_short_ep4,n019,l019,19,조수,Assist,2,Normal,,,,후룩. 도움이 될 만한 걸 많이 알았네요.,,n020
-detective_short_ep4,n020,l020,20,탐정,Detective,-1,Normal,,,,냠. 그러게. 우리 의뢰인 옆에 사는 분들이 가까운 곳에서 아르바이트할 줄은 몰랐네. 그것도 사는 곳 바로 아래에서.,,n021
-detective_short_ep4,n021,l021,21,조수,Assist,2,Normal,,,,"편의점에서 아르바이트하는 분과 고깃집에서 일하는 분. 시간상 의뢰인이 나가는 14시 30분에 올라가는, 편의점에서 일하는 사람이 201호의 주민이고, 의뢰인이 돌아오는 22시 10분에 나오는 고깃집이 203호겠네요.",,n022
-detective_short_ep4,n022,l022,22,탐정,Detective,-1,Normal,,,,"그리고 우리 의뢰인은 근처에 직장이 있는 모양이네. 돌아올 때 우리 차를 같이 타고 왔고, 지하철역이랑 버스 정류장이 근처에 있는데도 자전거를 타고 다니는 걸 보면 말이야.",,n023
-detective_short_ep4,n023,l023,23,조수,Assist,2,Normal,,,,그러면 이제 뭔가 아시겠나요?,,n024
-detective_short_ep4,n024,l024,24,탐정,Detective,-1,Normal,,,,"음... 몇 가지는 바로 떠오르는데, 앞서 들었던 것까지 생각하면... 가능성은 하나려나.",,n025
-detective_short_ep4,n025,l025,25,조수,Assist,2,Normal,,,,오. 그럼 슬슬 갈까요? 아무리 저희가 좀 많이 주문했어도 이렇게 늦게까지 있으면 눈치 보이니까요.,,n026
-detective_short_ep4,n026,l026,26,탐정,Detective,-1,Normal,,,,그런 것 치고는 방금도 서비스를 받았던 것 같은데.,,n027
-detective_short_ep4,n027,l027,27,조수,Assist,2,Normal,,,,그거 그냥 먹고 빨리 가라는 거 아닌가요? 이 가게에 있던 마지막 디저트였던 것 같은데요.,,n028
-detective_short_ep4,n028,l028,28,탐정,Detective,-1,Normal,,,,좋아. 그럼 먹고 가자. 조금은 발품을 팔아야 할 것 같거든.,,n029
-detective_short_ep4,n029,l029,29,조수,Assist,2,Normal,,,,후루루룩...,,n030
-detective_short_ep4,n030,l030,30,탐정,Detective,-1,Normal,,,,넌 이 밤에 커피를 마시고도 잠이 잘 잔다는 게 신기하단 말이지.,,n031
-detective_short_ep4,n031,l031,31,조수,Assist,2,Normal,,,,저는 그렇게 먹고도 당뇨가 안 온 소장님이 더 신기해요.,,
-detective_short_ep5,n000,l000,0,의뢰인,Client,3,Normal,,BGI_detective_short_ep5,BGM_detective_short_ep5,"탐정님! 빵을! 아니, 범인을 알아내셨다고요!",,n001
-detective_short_ep5,n001,l001,1,탐정,Detective,-1,Normal,,,,"굳이 정정하지 않으셔도 돼요. 의뢰하실 때 빵이 뭔지도 굉장히 궁금해하셨고, 저희 사무소는 의뢰인이 원하시는 건 전부 조사하니까 평판이 좋거든요.",,n002
-detective_short_ep5,n002,l002,2,의뢰인,Client,3,Normal,,,,오오! 그럼 대체 어떤 빵인지 먼저 알려주실 수 있나요!,,n003
-detective_short_ep5,n003,l003,3,탐정,Detective,-1,Normal,,,,"네, 아마도 이것들 중 하나, 아마도 이거라고 생각해요.",,n004
-detective_short_ep5,n004,l004,4,stage,stage,1,,,,,부스럭.,sfx,n005
-detective_short_ep5,n005,l005,5,의뢰인,Client,3,Normal,,,,네? 아니 이건...... 편의점에서 파는 빵. 그것도 우리 집 아래에서도 파는 빵 아닌가요? 이거라고요? 그 맛있는 냄새의 정체가? 그럴 리가요!,,n006
-detective_short_ep5,n006,l006,6,탐정,Detective,-1,Normal,,,,"차근차근 설명해드릴게요. 아, 조수 이것 좀 넣고 와줘.",,n007
-detective_short_ep5,n007,l007,7,조수,Assist,2,Normal,,,,네.,,n008
-detective_short_ep5,n008,l008,8,의뢰인,Client,3,Normal,,,,음... 조수분은 뭐 하시는 건가요?,,n009
-detective_short_ep5,n009,l009,9,탐정,Detective,-1,Normal,,,,"잠시만 기다리시면 알 거예요. 먼저 물어볼 게 있는데, 저희에게 의뢰하신 날 밤에도 빵 냄새를 맡으셨나요?",,n010
-detective_short_ep5,n010,l010,10,의뢰인,Client,3,Normal,,,,네. 그날도 났습니다.,,n011
-detective_short_ep5,n011,l011,11,탐정,Detective,-1,Normal,,,,음. 좋아요. 자신만만하게 결론을 내고 부끄러워질 일은 없겠네요.,,n012
-detective_short_ep5,n012,l012,12,의뢰인,Client,3,Normal,,,,네?,,n013
-detective_short_ep5,n013,l013,13,탐정,Detective,-1,Normal,,,,"흠흠. 일단 제가 저 빵이라고 생각하는 이유는 이거에요. 정말로 의뢰주님의 이웃이 범인... 음, 이 표현은 너무 강하니... 아, 빵순이라고 가정한다면, 당연히 빵을 사 오거나, 하다못해 빵의 재료라도 사와야 하니까요.",,n014
-detective_short_ep5,n014,l014,14,의뢰인,Client,3,Normal,,,,그렇지요?,,n015
-detective_short_ep5,n015,l015,15,탐정,Detective,-1,Normal,,,,"하지만 어제 하루 관찰한 결과 따로 장을 보고 돌아가는 사람은 없었어요. 물론, 이전에 구매를 한 재료가 남아있을 가능성도 있지만, 의뢰인분이 처음으로 냄새를 맡은 날에도 규칙적으로 만나셨다고 했으니 빵을 직접 만들었을 가능성은 버렸어요.",,n016
-detective_short_ep5,n016,l016,16,의뢰인,Client,3,Normal,,,,"하지만, 제가 일하러 간 사이에 나갔을 수도 있지 않나요?",,n017
-detective_short_ep5,n017,l017,17,탐정,Detective,-1,Normal,,,,"그렇지요. 하지만, 같은 빵을 이 주일 동안 만들어 먹는 것보다는, 사서 먹었다는 가정을 먼저했지요. 이웃분들이 그 시간에는 꽤 피곤하실 테니까요.",,n018
-detective_short_ep5,n018,l018,18,의뢰인,Client,3,Normal,,,,네?,,n019
-detective_short_ep5,n019,l019,19,탐정,Detective,-1,Normal,,,,혹시 이웃분들이 어디서 일하시는지는 알고 계시나요?,,n020
-detective_short_ep5,n020,l020,20,의뢰인,Client,3,Normal,,,,"네, 일하는 걸 본 적은 있거든요. 아마.. 201호분이 상가의 편의점에서 일하시고, 203호분이 고깃집에서 일하실 거에요. 앗. 편의점 빵이라면 설마!",,n021
-detective_short_ep5,n021,l021,21,탐정,Detective,-1,Normal,,,,"아, 편의점분은 아니에요. 만약 편의점에서 일하시는 분이라면 매일 규칙적으로 같은 시간에 냄새가 나기 힘들지요. 그 시간은 퇴근하고도 꽤 시간이 지난 시간이니까요.",,n022
-detective_short_ep5,n022,l022,22,의뢰인,Client,3,Normal,,,,"아, 그렇다면 고깃집에서 일하는 분이 일이 끝나고 사 오는 거군요.",,n023
-detective_short_ep5,n023,l023,23,탐정,Detective,-1,Normal,,,,네. 일단 범... 빵순이는 그분일 겁니다. 그리고 그 냄새는 아마...,,n024
-detective_short_ep5,n024,l024,24,stage,stage,1,,,,,화아아...,sfx,n025
-detective_short_ep5,n025,l025,25,탐정,Detective,-1,Normal,,,,지금 나고 있는 이 냄새가 맞을까요?,,n026
-detective_short_ep5,n026,l026,26,의뢰인,Client,3,Normal,,,,네! 맞아요. 이 빵 냄새! 버터의 폭력적인 고소함이 느껴지면서도 동시에 느껴지는 상냥한 달콤함! 이 냄새에요!,,n027
-detective_short_ep5,n027,l027,27,탐정,Detective,-1,Normal,,,,음 역시. 저희가 어제 편의점에서 사온 빵을 전부 에어프라이어에 구워본 보람이 있네요. 저희도 이 냄새가 가장 맛있게 느껴졌거든요.,,n028
-detective_short_ep5,n028,l028,28,의뢰인,Client,3,Normal,,,,네? 에어프라이어요?,,n029
-detective_short_ep5,n029,l029,29,탐정,Detective,-1,Normal,,,,"냄새가 난다는 것도 신경이 쓰였지요. 보통 그렇게 냄새가 퍼지려면 빵을 구워야 하는데, 빵을 직접 만드는 게 아니라면 이렇게 사온 빵을 데워서 먹어야 할 테니까요. 하지만, 의뢰인분의 방을 보면 오븐을 설치하기는 힘들어 보였고, 에어프라이어에 빵을 넣었을 거라고 생각했지요.",,n030
-detective_short_ep5,n030,l030,30,의뢰인,Client,3,Normal,,,,아... 과연! 저는 편의점에서 사온 빵을 에어프라이어에 넣어 볼 생각은 못 했네요! 그래서 제가 편의점 빵을 전부 먹어봐도 알 수 없었던 거였군요!,,n031
-detective_short_ep5,n031,l031,31,탐정,Detective,-1,Normal,,,,"의뢰인님의 방에는 에어프라이어가 없었으니까요. 자, 그럼 드셔보세요.",,n032
-detective_short_ep5,n032,l032,32,stage,stage,1,,,,,바삭!,sfx,n033
-detective_short_ep5,n033,l033,33,의뢰인,Client,3,Normal,,,,오오...! 그저 그랬던 빵이 데워지는 것만으로도 이렇게...! 음! 최고입니다!,,n034
-detective_short_ep5,n034,l034,34,탐정,Detective,-1,Normal,,,,저희도 덕분에 맛있게 먹었지요.,,n035
-detective_short_ep5,n035,l035,35,조수,Assist,2,Normal,,,,커피에도 꽤 잘 어울렸지요.,,n036
-detective_short_ep5,n036,l036,36,의뢰인,Client,3,Normal,,,,그런데 궁금한 건... 제가 물어봤을 때는 왜 그분은 일하고 있다고 답하신 걸까요?,,n037
-detective_short_ep5,n037,l037,37,탐정,Detective,-1,Normal,,,,거기부터는 예측의 영역입니다만... 아마 밤에 드시냐고 물어보셔서 그런 것 아닌가 싶네요. 그분이 고깃집에서 일을 끝내고 돌아오는 시간은 새벽이니까요.,,n038
-detective_short_ep5,n038,l038,38,의뢰인,Client,3,Normal,,,,"음... 그럴 수도 있겠네요. 제가 자세히 물어본 것도 아니고, 스쳐 지나가듯이 물어본 거니까요.",,n039
-detective_short_ep5,n039,l039,39,탐정,Detective,-1,Normal,,,,네. 이제 이걸로 궁금하신 건 전부 해결되었을까요?,,n040
-detective_short_ep5,n040,l040,40,의뢰인,Client,3,Normal,,,,네! 감사합니다! 설마 하루 만에 빵이 뭔지까지 찾아주실 줄이야! 일단 가는 길에 에어프라이어부터 사야겠네요!,,n041
-detective_short_ep5,n041,l041,41,탐정,Detective,-1,Normal,,,,하하. 의뢰비는 보고 오신대로 주시면 됩니다. 심각한 일도 아니었으니까요.,,n042
-detective_short_ep5,n042,l042,42,의뢰인,Client,3,Normal,,,,알겠습니다.,,n043
-detective_short_ep5,n043,l043,43,stage,stage,1,,,,,정산 중,stage,n044
-detective_short_ep5,n044,l044,44,조수,Assist,2,Normal,,,,"이번 일은 꽤 맛있는 일이네요. 적당히 일하고, 결과적으로 빵 하나를 맛있게 먹는 법도 알고.",,n045
-detective_short_ep5,n045,l045,45,탐정,Detective,-1,Normal,,,,잠시 머리를 굴릴 일은 되었네. 네 말대로 맛도 있고. 음. 나도 앞으로 디저트를 에어프라이어에 돌려먹어 볼까.,,n046
-detective_short_ep5,n046,l046,46,조수,Assist,2,Normal,,,,......왜 생크림 케이크를 들고 가시는 거지요?,,n047
-detective_short_ep5,n047,l047,47,탐정,Detective,-1,Normal,,,,인간의 발전은 터무니없는 시도에서 나오는 거니까.,,n048
-detective_short_ep5,n048,l048,48,나레이션,Narration,1,,,,,"당연히 실패했지만, 탐정은 아까워서 다 먹을 수밖에 없었다.",,
+detective_short_ep1,n000,l000,0,탐정,Detective,-1,Detective_0,jump2,Office,BGM_detective_short_ep1,조수야. 조수야.,,n001
+detective_short_ep1,n001,l001,1,조수,Assist,2,Assist_3,,,,케이크는 어제 13시 30분에 제가 사 왔으니 오늘은 소장님이 사 오실 차례인데요.,,n002
+detective_short_ep1,n002,l002,2,탐정,Detective,-1,Detective_0,,,,"아니아니. 그게 아니고, 오늘도 뭐 재밌는 일거리 없나?",,n003
+detective_short_ep1,n003,l003,3,조수,Assist,2,Assist_0,,,,"저는 아침 9시 30분부터 소장님이랑 쭉 같이 있었는데, 소장님도 모르면 저도 모르지 않을까요?",,n004
+detective_short_ep1,n004,l004,4,탐정,Detective,-1,Detective_0,,,,그래 그렇지. 너무 심심해서 그냥 물어봤어. 그런데 오늘따라 까칠하네.,,n005
+detective_short_ep1,n005,l005,5,조수,Assist,2,Assist_0,,,,그건-,,n006
+detective_short_ep1,n006,l006,6,탐정,Detective,-1,Detective_0,,,,"뭐, 아침부터 편의점에서 늘 마시던 커피가 떨어졌는데, 오는 길에 계단에서 발을 헛디뎌서 사 오던 물건까지 떨어지면 기분이 나쁘기는 하겠지.",,n007
+detective_short_ep1,n007,l007,7,조수,Assist,2,Assist_0,,,,쉬고 있어도 소장님의 머리는 잘 돌아가네요.,,n008
+detective_short_ep1,n008,l008,8,탐정,Detective,-1,Detective_0,,,,"어라, 어떻게 알았냐고는 안 물어봐?",,n009
+detective_short_ep1,n009,l009,9,조수,Assist,2,Assist_0,,,,말씀하신 대로 오늘 제가 기분이 까칠해서 소장님이 의기양양하게 설명하는 모습을 보면 기분이 더 안 좋아질 것 같아서요.,,n010
+detective_short_ep1,n010,l010,10,탐정,Detective,-1,Detective_0,,,,하지만 내 기분은 좋아지니까 설명할게.,,n011
+detective_short_ep1,n011,l011,11,조수,Assist,2,Assist_0,,,,에휴.,,n012
+detective_short_ep1,n012,l012,12,탐정,Detective,-1,Detective_0,,,,"설명이라 해봤자 네가 늘 마시던 커피가 아닌 걸 마시고, 편의점 봉투에 먼지가 좀 묻어있었던 것뿐이지만. 아, 우리 사무소로 올라오는 계단 상태가 좀 안 좋은 것도 있고.",,n013
+detective_short_ep1,n013,l013,13,조수,Assist,2,Assist_0,,,,할 일 없으면 계단이나 좀 손 보라고 건물주에게 연락하는 건 어떨까요.,,n014
+detective_short_ep1,n014,l014,14,탐정,Detective,-1,Detective_0,,,,"어제 발견하자마자 했지. 사람은 불렀고, 수리공이 오면 우리 쪽에 먼저 온다고 했으니까 조금 있으면-",,n015
+detective_short_ep1,n015,l015,15,stage,stage,1,stage_0,shake1,,,쿵!,sfx,n016
+detective_short_ep1,n016,l016,16,조수,Assist,2,Assist_0,,,,음? 이게 무슨 소리지요?,,n017
+detective_short_ep1,n017,l017,17,???,???,3,???_0,,,,계십니까!,,n018
+detective_short_ep1,n018,l018,18,조수,Assist,2,Assist_0,,,,오. 이거 타이밍이 좋네요. 부른다던 수리공인 모양이네요.,,n019
+detective_short_ep1,n019,l019,19,탐정,Detective,-1,Detective_0,,,,나는 아닌 것 같은데. 손님이려나?,,n020
+detective_short_ep1,n020,l020,20,조수,Assist,2,Assist_0,,,,네?,,n021
+detective_short_ep1,n021,l021,21,탐정,Detective,-1,Detective_0,,,,일단 가서 열어봐.,,n022
+detective_short_ep1,n022,l022,22,stage,stage,1,stage_0,,,,철컥!,sfx,n023
+detective_short_ep1,n023,l023,23,조수,Assist,2,Assist_0,,,,어서오세요... 혹시 손님이신가요?,,n024
+detective_short_ep1,n024,l024,24,의뢰인,Client,3,Client_0,,,,네. 여기가... 탐정 사무소가 맞나요? 의뢰 드릴 것이 있어서 왔습니다.,,n025
+detective_short_ep1,n025,l025,25,조수,Assist,2,Assist_0,jump2,,,우와 진짜 손님. 이게 아니지. 어서 오세요! 손님!,,n026
+detective_short_ep1,n026,l026,26,의뢰인,Client,3,Client_0,,,,오우.,,n027
+detective_short_ep1,n027,l027,27,stage,stage,1,stage_0,,,,조수 접대중,stage,n028
+detective_short_ep1,n028,l028,28,조수,Assist,2,Assist_0,,,,차는 괜찮으신가요?,,n029
+detective_short_ep1,n029,l029,29,의뢰인,Client,3,Client_0,,,,네. 향이 좋네요.,,n030
+detective_short_ep1,n030,l030,30,탐정,Detective,-1,Detective_0,,,,그럼 말씀하고 싶으실 때 말해주세요. 저희 사무소에 오시는 분들은 항상 남이 듣기에는 이상한 일로 오시니까요. 그러니 마음의 준비가 다 되시면-,,n031
+detective_short_ep1,n031,l031,31,의뢰인,Client,3,Client_0,,,,제 의뢰는... 제 옆집들. 그러니까 이웃들이 이상한 것 같아서 조사해주셨으면 합니다.,,n032
+detective_short_ep1,n032,l032,32,"탐정",Detective,2,Detective_0,,,,오.,,
+detective_short_ep2,n000,l000,0,탐정,Detective,-1,Detective_0,,Office,BGM_detective_short_ep2,고객님. 그러니까... 옆집을 조사해달라고요? 요즘 잠을 제대로 못 주무시는 것과 관계가 있나요?,,n001
+detective_short_ep2,n001,l001,1,의뢰인,Client,3,Client_0,,,,네. 어라 그건 어떻게?,,n002
+detective_short_ep2,n002,l002,2,탐정,Detective,-1,Detective_0,,,,"고객님의 상태가 눈에 띄게 안 좋아서요. 피곤하시니 계단을 올라오실 때 위험했을 거고요. 매일 8시간의 숙면을 취하는 저희 조수도 발을 헛디뎠는데, 잠을 제대로 못 주무신 고객님은 더 위험했겠지요.",,n003
+detective_short_ep2,n003,l003,3,조수,Assist,2,Assist_0,,,,"아, 그래서. 수리공이었다면 계단에 문제가 있는 걸 알았을 테니 문제가 생기지 않았겠네요.",,n004
+detective_short_ep2,n004,l004,4,탐정,Detective,-1,Detective_0,,,,요즘 조수의 이해력이 좋아져서 나는 기뻐. 수업료로 케이크 좀 사 올래?,,n005
+detective_short_ep2,n005,l005,5,탐정,Detective,-1,Detective_0,,,,그건 안 됨.,,n006
+detective_short_ep2,n006,l006,6,탐정,Detective,-1,Detective_0,,,,힝.,,n007
+detective_short_ep2,n007,l007,7,의뢰인,Client,3,Client_0,,,,흠. 흠. 그럼 설명을 더 드려도 괜찮을까요?,,n008
+detective_short_ep2,n008,l008,8,탐정,Detective,-1,Detective_0,,,,네. 조금 기다리시면 조수가 사 오는 케이크도 드실 수 있는데. 피곤하시면 조금 쉬신 후에 말씀하셔도.,,n009
+detective_short_ep2,n009,l009,9,조수,Assist,2,Assist_0,,,,안 사 옵니다. 그리고 이런 상태에서 한숨 주무시면 기억에 혼란이 올 수도 있으니 피곤하셔도 지금 말씀하시는 게 좋을 겁니다.,,n010
+detective_short_ep2,n010,l010,10,의뢰인,Client,3,Client_0,,,,"음. 그건 아쉽... 아니지, 그럼 말씀드리겠습니다. 시작은 이 주일 전 이었습니다.",,n011
+detective_short_ep2,n011,l011,11,의뢰인,Client,3,Client_0,,,,여느 때처럼 퇴근하고 돌아오는 길이었습니다. 시간은 밤 10시. 항상 그때 돌아와서 시간은 정확합니다.,,n012
+detective_short_ep2,n012,l012,12,의뢰인,Client,3,Client_0,,,,"그때 딱 제 옆방, 그러니까 일단 오른쪽 방인 203호에 사는 분과 가볍게 인사를 하고 스쳐 지나가지요. 그분은 그때 출근하시거든요.",,n013
+detective_short_ep2,n013,l013,13,의뢰인,Client,3,Client_0,,,,"아, 제가 사는 곳은 원룸입니다. 1층은 상가고, 2층부터 방이 있지요. 한 방에 한 명씩 살고 있어요.",,n014
+detective_short_ep2,n014,l014,14,탐정,Detective,-1,Detective_0,,,,그러면 201호에 사는 분도 누구인지는 알고 계시나요?,,n015
+detective_short_ep2,n015,l015,15,의뢰인,Client,3,Client_0,,,,네. 그분은 제가 출근할 때 집으로 돌아오시거든요. 그날 낮에도 같은 시간에 만나서 기억하고 있습니다.,,n016
+detective_short_ep2,n016,l016,16,탐정,Detective,-1,Detective_0,,,,알겠습니다. 그럼 계속해주세요.,,n017
+detective_short_ep2,n017,l017,17,의뢰인,Client,3,Client_0,,,,네. 그리고 그날 밤... 씻고 잠에 들고 한 밤중... 냄새가 나기 시작했습니다. 잠에서 깰 정도의 냄새가.,,n018
+detective_short_ep2,n018,l018,18,탐정,Detective,-1,Detective_0,,,,냄새? 악취였나요? 잠을 제대로 주무시지 못할 정도의?,,n019
+detective_short_ep2,n019,l019,19,의뢰인,Client,3,Client_0,,,,아니요. 빵 냄새였습니다.,,n020
+detective_short_ep2,n020,l020,20,탐정,Detective,-1,Detective_0,,,,네?,,n021
+detective_short_ep2,n021,l021,21,의뢰인,Client,3,Client_0,jump2,,,정말로 고소하고 약간의 달콤함까지 느껴져서 향만 맡아도 이 빵은 정말 맛있는 빵이라고 알 수 있는! 정말 맛있는 빵의 냄새가 났습니다.,,n022
+detective_short_ep2,n022,l022,22,탐정,Detective,-1,Detective_0,,,,네?,,
+detective_short_ep3,n000,l000,0,탐정,Detective,-1,Detective_0,,Office,BGM_detective_short_ep3,으음... 확실히 자려는 순간에 그런 냄새가 나면 잠을 설칠 수도 있지요.,,n001
+detective_short_ep3,n001,l001,1,의뢰인,Client,3,Client_0,,,,네! 정말로 맛있는 빵의 냄새였거든요! 평생 맛있는 빵이 있는 곳이라면 휴가를 써서도 찾아가는 제가 한 번도 맡아보지못한 독특하면서도 반드시 맛있을 그런 빵의 냄새!,,n002
+detective_short_ep3,n002,l002,2,탐정,Detective,-1,Detective_0,,,,"네... 그런데 여기까지 오셨다는 건, 이웃중 한 분의 집에서 빵 냄새가 나는 것 같은데, 그걸 알고 싶으신 거군요?",,n003
+detective_short_ep3,n003,l003,3,의뢰인,Client,3,Client_0,,,,네 맞습니다. 가능하면 어디서 산 빵인지도 알고 싶고요!,,n004
+detective_short_ep3,n004,l004,4,탐정,Detective,-1,Detective_0,,,,음. 그런데 잠을 못 주무신다면 냄새가 신경이 쓰이지 않을 정도로 배부르게 먹고 주무셔도 되지 않나요?,,n005
+detective_short_ep3,n005,l005,5,의뢰인,Client,3,Client_0,,,,크윽. 그러기에는 빵 냄새가 너무 엄청나서 이제는 그 빵이 과연 어떤 맛일까 상상하느라 불면증이...!,,n006
+detective_short_ep3,n006,l006,6,탐정,Detective,-1,Detective_0,,,,"알겠습니다... 흐음. 그리고 밑에 있는 상가 건물에는 빵과 관련된 곳은 없는 모양이네요, 만약 있었다면 여기까지 오시지도 않았을 테니까요.",,n007
+detective_short_ep3,n007,l007,7,의뢰인,Client,3,Client_0,,,,"네 맞습니다. 빵을 팔만한 곳으로 편의점이 있기는 했지만, 제가 찾던 빵은 없었습니다. 다른 곳은 전부 먹을 것과는 관련이 없고, 제가 퇴근한 후에는 사람도 없는 곳이고요.",,n008
+detective_short_ep3,n008,l008,8,탐정,Detective,-1,Detective_0,,,,혹시 이웃분들에게 직접 물어보신 적은 있나요?,,n009
+detective_short_ep3,n009,l009,9,의뢰인,Client,3,Client_0,,,,"네. 물어봤습니다. 자세히 물어본 건 아니고, 스쳐 지나가면서 혹시 밤에 뭘 드시냐고 물어보기는 했지만, 전부 아니라고 하더군요.",,n010
+detective_short_ep3,n010,l010,10,탐정,Detective,-1,Detective_0,,,,혹시 정확한 대화는 기억하시나요?,,n011
+detective_short_ep3,n011,l011,11,의뢰인,Client,3,Client_0,,,,"음... 201호분은... ‘저는 그 시간이면 자고 있습니다,’ 203호분은 ‘저는 그때 일하고 있습니다.’ 라고 했어요.",,n012
+detective_short_ep3,n012,l012,12,조수,Assist,2,Assist_0,,,,흠... 203호분은 일하러 가신다고 했었지요.,,n013
+detective_short_ep3,n013,l013,13,의뢰인,Client,3,Client_0,,,,"하지만, 그 이후부터 지금까지도 빵 냄새는 계속 나고 있습니다... 보시다시피 아직도 잠은 제대로 못 자고 있고요.",,n014
+detective_short_ep3,n014,l014,14,탐정,Detective,-1,Detective_0,,,,으음... 확실히 이상하고 신고하기도 미묘한 사건이라 저희 쪽에 오실만 하네요.,,n015
+detective_short_ep3,n015,l015,15,의뢰인,Client,3,Client_0,,,,네... 그런데 역시 가벼운 사건이라...,,n016
+detective_short_ep3,n016,l016,16,탐정,Detective,-1,Detective_0,,,,아니요. 재밌어 보이니까 가볼까요?,,n017
+detective_short_ep3,n017,l017,17,의뢰인,Client,3,Client_0,,,,네?,,n018
+detective_short_ep3,n018,l018,18,탐정,Detective,-1,Detective_0,,,,일단 현장부터 가보지요. 안내해주세요. 저도 그 맛있는 빵이 뭔지 궁금해졌거든요.,,n019
+detective_short_ep3,n019,l019,19,조수,Assist,2,Assist_0,,,,저기 소장님. 수리공을 기다려야 하지 않나요?,,n020
+detective_short_ep3,n020,l020,20,탐정,Detective,-1,Detective_0,,,,"아. 으음, 조수를 두고 가면 적적하니... 혹시 케이크라도 드시면서 조금 기다려주실 수 있나요?",,n021
+detective_short_ep3,n021,l021,21,의뢰인,Client,3,Client_0,,,,"어휴, 얼마든지 기다려도 됩니다.",,n022
+detective_short_ep3,n022,l022,22,탐정,Detective,-1,Detective_0,,,,"네, 그럼-",,n023
+detective_short_ep3,n023,l023,23,조수,Assist,2,Assist_0,,,,뭘 봐요. 소장님 차례니까 직접 사 오셔야지요.,,n024
+detective_short_ep3,n024,l024,24,탐정,Detective,-1,Detective_0,,,,힝.,,
+detective_short_ep4,n000,l000,0,탐정,Detective,-1,Detective_0,,Street,BGM_detective_short_ep4,"의뢰인분은 일하러 가셨고, 우리도 볼 건 다 봤고. 어때 조수?",,n001
+detective_short_ep4,n001,l001,1,조수,Assist,2,Assist_0,,,,"으음. 확실히 집 구조는 평범하네요. 그러니, 만약 옆방에서 정말로 밤에 몰래... 빵을 먹고 있다면 냄새가 날 수도 있겠어요.",,n002
+detective_short_ep4,n002,l002,2,탐정,Detective,-1,Detective_0,,,,가능성은 열어두자고. 만약에 누가 몰래 밑에 비어있는 상가에 들어와서 빵을 먹어도 냄새는 올라올 수 있겠지.,,n003
+detective_short_ep4,n003,l003,3,조수,Assist,2,Assist_0,,,,하지만-,,n004
+detective_short_ep4,n004,l004,4,탐정,Detective,-1,Detective_0,,,,"물론, 조수의 생각대로 이 주 동안 꾸준히, 같은 시간에 그럴 가능성이 작기는 하지만, 불가능한 일은 아니지. 사람은 워낙 예측할 수 없는 행동을 많이 하니까.",,n005
+detective_short_ep4,n005,l005,5,조수,Assist,2,Assist_0,,,,그런데 어떻게 조사를 시작하실 건가요? 이전처럼?,,n006
+detective_short_ep4,n006,l006,6,탐정,Detective,-1,Detective_0,,,,"그래 위험한 일은 아니니까 관찰부터 하자. 의뢰인이 사는 상가 쪽에는 시간을 때울 곳이 없지만, 근처에는 있으니까.",,n007
+detective_short_ep4,n007,l007,7,조수,Assist,2,Assist_0,,,,또 카페군요...,,n008
+detective_short_ep4,n008,l008,8,탐정,Detective,-1,Detective_0,,,,"여기 카페는 어떤 디저트를 팔지 기대되네. 요즘은 편의점에서도 맛있는 빵을 팔기는 해도, 이런 카페에 숨은 보물이 있단 말이지.",,n009
+detective_short_ep4,n009,l009,9,조수,Assist,2,Assist_0,,,,커피도 마찬가지지요.,,n010
+detective_short_ep4,n010,l010,10,stage,stage,1,stage_0,,Cafe,,띠링!,sfx,n011
+detective_short_ep4,n011,l011,11,탐정,Detective,-1,Detective_0,,,,"음, 언제 봐도 우리 조수는... 참 많이 마시네.",,n012
+detective_short_ep4,n012,l012,12,조수,Assist,2,Assist_0,,,,그러는 소장님은 언제 봐도 많이 드시고요.,,n013
+detective_short_ep4,n013,l013,13,탐정,Detective,-1,Detective_0,,,,"디저트를 전부 시켜보는 사람은 흔해도, 카페에서 파는 모든 커피를 시키는 사람은 드물지 않을까?",,n014
+detective_short_ep4,n014,l014,14,조수,Assist,2,Assist_0,,,,언제 다시 올지 모르는데 전부 마셔봐야지요.,,n015
+detective_short_ep4,n015,l015,15,탐정,Detective,-1,Detective_0,,,,나도 그래.,,n016
+detective_short_ep4,n016,l016,16,조수,Assist,2,Assist_0,,,,그리고 이 정도로 시키면 카페에서 꽤 오래 앉아 있어도 눈치는 안 주니까요.,,n017
+detective_short_ep4,n017,l017,17,탐정,Detective,-1,Detective_0,,,,"덕분에 서비스도 받은 적이 많지. 자, 그럼 일하자고.",,n018
+detective_short_ep4,n018,l018,18,stage,stage,1,stage_0,,,,관찰 타임,stage,n019
+detective_short_ep4,n019,l019,19,조수,Assist,2,Assist_0,,,,후룩. 도움이 될 만한 걸 많이 알았네요.,,n020
+detective_short_ep4,n020,l020,20,탐정,Detective,-1,Detective_0,,,,냠. 그러게. 우리 의뢰인 옆에 사는 분들이 가까운 곳에서 아르바이트할 줄은 몰랐네. 그것도 사는 곳 바로 아래에서.,,n021
+detective_short_ep4,n021,l021,21,조수,Assist,2,Assist_0,,,,"편의점에서 아르바이트하는 분과 고깃집에서 일하는 분. 시간상 의뢰인이 나가는 14시 30분에 올라가는, 편의점에서 일하는 사람이 201호의 주민이고, 의뢰인이 돌아오는 22시 10분에 나오는 고깃집이 203호겠네요.",,n022
+detective_short_ep4,n022,l022,22,탐정,Detective,-1,Detective_0,,,,"그리고 우리 의뢰인은 근처에 직장이 있는 모양이네. 돌아올 때 우리 차를 같이 타고 왔고, 지하철역이랑 버스 정류장이 근처에 있는데도 자전거를 타고 다니는 걸 보면 말이야.",,n023
+detective_short_ep4,n023,l023,23,조수,Assist,2,Assist_0,,,,그러면 이제 뭔가 아시겠나요?,,n024
+detective_short_ep4,n024,l024,24,탐정,Detective,-1,Detective_0,,,,"음... 몇 가지는 바로 떠오르는데, 앞서 들었던 것까지 생각하면... 가능성은 하나려나.",,n025
+detective_short_ep4,n025,l025,25,조수,Assist,2,Assist_0,,,,오. 그럼 슬슬 갈까요? 아무리 저희가 좀 많이 주문했어도 이렇게 늦게까지 있으면 눈치 보이니까요.,,n026
+detective_short_ep4,n026,l026,26,탐정,Detective,-1,Detective_0,,,,그런 것 치고는 방금도 서비스를 받았던 것 같은데.,,n027
+detective_short_ep4,n027,l027,27,조수,Assist,2,Assist_0,,,,그거 그냥 먹고 빨리 가라는 거 아닌가요? 이 가게에 있던 마지막 디저트였던 것 같은데요.,,n028
+detective_short_ep4,n028,l028,28,탐정,Detective,-1,Detective_0,,,,좋아. 그럼 먹고 가자. 조금은 발품을 팔아야 할 것 같거든.,,n029
+detective_short_ep4,n029,l029,29,조수,Assist,2,Assist_0,,,,후루루룩...,,n030
+detective_short_ep4,n030,l030,30,탐정,Detective,-1,Detective_0,,,,넌 이 밤에 커피를 마시고도 잠이 잘 잔다는 게 신기하단 말이지.,,n031
+detective_short_ep4,n031,l031,31,조수,Assist,2,Assist_0,,,,저는 그렇게 먹고도 당뇨가 안 온 소장님이 더 신기해요.,,
+detective_short_ep5,n000,l000,0,의뢰인,Client,3,Client_0,jump2,Office,BGM_detective_short_ep5,"탐정님! 빵을! 아니, 범인을 알아내셨다고요!",,n001
+detective_short_ep5,n001,l001,1,탐정,Detective,-1,Detective_0,,,,"굳이 정정하지 않으셔도 돼요. 의뢰하실 때 빵이 뭔지도 굉장히 궁금해하셨고, 저희 사무소는 의뢰인이 원하시는 건 전부 조사하니까 평판이 좋거든요.",,n002
+detective_short_ep5,n002,l002,2,의뢰인,Client,3,Client_0,,,,오오! 그럼 대체 어떤 빵인지 먼저 알려주실 수 있나요!,,n003
+detective_short_ep5,n003,l003,3,탐정,Detective,-1,Detective_0,,,,"네, 아마도 이것들 중 하나, 아마도 이거라고 생각해요.",,n004
+detective_short_ep5,n004,l004,4,stage,stage,1,stage_0,,,,부스럭.,sfx,n005
+detective_short_ep5,n005,l005,5,의뢰인,Client,3,Client_0,,,,네? 아니 이건...... 편의점에서 파는 빵. 그것도 우리 집 아래에서도 파는 빵 아닌가요? 이거라고요? 그 맛있는 냄새의 정체가? 그럴 리가요!,,n006
+detective_short_ep5,n006,l006,6,탐정,Detective,-1,Detective_0,,,,"차근차근 설명해드릴게요. 아, 조수 이것 좀 넣고 와줘.",,n007
+detective_short_ep5,n007,l007,7,조수,Assist,2,Assist_0,,,,네.,,n008
+detective_short_ep5,n008,l008,8,의뢰인,Client,3,Client_0,,,,음... 조수분은 뭐 하시는 건가요?,,n009
+detective_short_ep5,n009,l009,9,탐정,Detective,-1,Detective_0,,,,"잠시만 기다리시면 알 거예요. 먼저 물어볼 게 있는데, 저희에게 의뢰하신 날 밤에도 빵 냄새를 맡으셨나요?",,n010
+detective_short_ep5,n010,l010,10,의뢰인,Client,3,Client_0,,,,네. 그날도 났습니다.,,n011
+detective_short_ep5,n011,l011,11,탐정,Detective,-1,Detective_0,,,,음. 좋아요. 자신만만하게 결론을 내고 부끄러워질 일은 없겠네요.,,n012
+detective_short_ep5,n012,l012,12,의뢰인,Client,3,Client_0,,,,네?,,n013
+detective_short_ep5,n013,l013,13,탐정,Detective,-1,Detective_0,,,,"흠흠. 일단 제가 저 빵이라고 생각하는 이유는 이거에요. 정말로 의뢰주님의 이웃이 범인... 음, 이 표현은 너무 강하니... 아, 빵순이라고 가정한다면, 당연히 빵을 사 오거나, 하다못해 빵의 재료라도 사와야 하니까요.",,n014
+detective_short_ep5,n014,l014,14,의뢰인,Client,3,Client_0,,,,그렇지요?,,n015
+detective_short_ep5,n015,l015,15,탐정,Detective,-1,Detective_0,,,,"하지만 어제 하루 관찰한 결과 따로 장을 보고 돌아가는 사람은 없었어요. 물론, 이전에 구매를 한 재료가 남아있을 가능성도 있지만, 의뢰인분이 처음으로 냄새를 맡은 날에도 규칙적으로 만나셨다고 했으니 빵을 직접 만들었을 가능성은 버렸어요.",,n016
+detective_short_ep5,n016,l016,16,의뢰인,Client,3,Client_0,,,,"하지만, 제가 일하러 간 사이에 나갔을 수도 있지 않나요?",,n017
+detective_short_ep5,n017,l017,17,탐정,Detective,-1,Detective_0,,,,"그렇지요. 하지만, 같은 빵을 이 주일 동안 만들어 먹는 것보다는, 사서 먹었다는 가정을 먼저했지요. 이웃분들이 그 시간에는 꽤 피곤하실 테니까요.",,n018
+detective_short_ep5,n018,l018,18,의뢰인,Client,3,Client_0,,,,네?,,n019
+detective_short_ep5,n019,l019,19,탐정,Detective,-1,Detective_0,,,,혹시 이웃분들이 어디서 일하시는지는 알고 계시나요?,,n020
+detective_short_ep5,n020,l020,20,의뢰인,Client,3,Client_0,,,,"네, 일하는 걸 본 적은 있거든요. 아마.. 201호분이 상가의 편의점에서 일하시고, 203호분이 고깃집에서 일하실 거에요. 앗. 편의점 빵이라면 설마!",,n021
+detective_short_ep5,n021,l021,21,탐정,Detective,-1,Detective_0,,,,"아, 편의점분은 아니에요. 만약 편의점에서 일하시는 분이라면 매일 규칙적으로 같은 시간에 냄새가 나기 힘들지요. 그 시간은 퇴근하고도 꽤 시간이 지난 시간이니까요.",,n022
+detective_short_ep5,n022,l022,22,의뢰인,Client,3,Client_0,,,,"아, 그렇다면 고깃집에서 일하는 분이 일이 끝나고 사 오는 거군요.",,n023
+detective_short_ep5,n023,l023,23,탐정,Detective,-1,Detective_0,,,,네. 일단 범... 빵순이는 그분일 겁니다. 그리고 그 냄새는 아마...,,n024
+detective_short_ep5,n024,l024,24,stage,stage,1,stage_0,,,,화아아...,sfx,n025
+detective_short_ep5,n025,l025,25,탐정,Detective,-1,Detective_0,,,,지금 나고 있는 이 냄새가 맞을까요?,,n026
+detective_short_ep5,n026,l026,26,의뢰인,Client,3,Client_0,,,,네! 맞아요. 이 빵 냄새! 버터의 폭력적인 고소함이 느껴지면서도 동시에 느껴지는 상냥한 달콤함! 이 냄새에요!,,n027
+detective_short_ep5,n027,l027,27,탐정,Detective,-1,Detective_0,,,,음 역시. 저희가 어제 편의점에서 사온 빵을 전부 에어프라이어에 구워본 보람이 있네요. 저희도 이 냄새가 가장 맛있게 느껴졌거든요.,,n028
+detective_short_ep5,n028,l028,28,의뢰인,Client,3,Client_0,,,,네? 에어프라이어요?,,n029
+detective_short_ep5,n029,l029,29,탐정,Detective,-1,Detective_0,,,,"냄새가 난다는 것도 신경이 쓰였지요. 보통 그렇게 냄새가 퍼지려면 빵을 구워야 하는데, 빵을 직접 만드는 게 아니라면 이렇게 사온 빵을 데워서 먹어야 할 테니까요. 하지만, 의뢰인분의 방을 보면 오븐을 설치하기는 힘들어 보였고, 에어프라이어에 빵을 넣었을 거라고 생각했지요.",,n030
+detective_short_ep5,n030,l030,30,의뢰인,Client,3,Client_0,,,,아... 과연! 저는 편의점에서 사온 빵을 에어프라이어에 넣어 볼 생각은 못 했네요! 그래서 제가 편의점 빵을 전부 먹어봐도 알 수 없었던 거였군요!,,n031
+detective_short_ep5,n031,l031,31,탐정,Detective,-1,Detective_0,,,,"의뢰인님의 방에는 에어프라이어가 없었으니까요. 자, 그럼 드셔보세요.",,n032
+detective_short_ep5,n032,l032,32,stage,stage,1,stage_0,,,,바삭!,sfx,n033
+detective_short_ep5,n033,l033,33,의뢰인,Client,3,Client_0,jump2,,,오오...! 그저 그랬던 빵이 데워지는 것만으로도 이렇게...! 음! 최고입니다!,,n034
+detective_short_ep5,n034,l034,34,탐정,Detective,-1,Detective_0,,,,저희도 덕분에 맛있게 먹었지요.,,n035
+detective_short_ep5,n035,l035,35,조수,Assist,2,Assist_0,,,,커피에도 꽤 잘 어울렸지요.,,n036
+detective_short_ep5,n036,l036,36,의뢰인,Client,3,Client_0,,,,그런데 궁금한 건... 제가 물어봤을 때는 왜 그분은 일하고 있다고 답하신 걸까요?,,n037
+detective_short_ep5,n037,l037,37,탐정,Detective,-1,Detective_0,,,,거기부터는 예측의 영역입니다만... 아마 밤에 드시냐고 물어보셔서 그런 것 아닌가 싶네요. 그분이 고깃집에서 일을 끝내고 돌아오는 시간은 새벽이니까요.,,n038
+detective_short_ep5,n038,l038,38,의뢰인,Client,3,Client_0,,,,"음... 그럴 수도 있겠네요. 제가 자세히 물어본 것도 아니고, 스쳐 지나가듯이 물어본 거니까요.",,n039
+detective_short_ep5,n039,l039,39,탐정,Detective,-1,Detective_0,,,,네. 이제 이걸로 궁금하신 건 전부 해결되었을까요?,,n040
+detective_short_ep5,n040,l040,40,의뢰인,Client,3,Client_0,,,,네! 감사합니다! 설마 하루 만에 빵이 뭔지까지 찾아주실 줄이야! 일단 가는 길에 에어프라이어부터 사야겠네요!,,n041
+detective_short_ep5,n041,l041,41,탐정,Detective,-1,Detective_0,,,,하하. 의뢰비는 보고 오신대로 주시면 됩니다. 심각한 일도 아니었으니까요.,,n042
+detective_short_ep5,n042,l042,42,의뢰인,Client,3,Client_0,,,,알겠습니다.,,n043
+detective_short_ep5,n043,l043,43,stage,stage,1,stage_0,,,,정산 중,stage,n044
+detective_short_ep5,n044,l044,44,조수,Assist,2,Assist_0,,,,"이번 일은 꽤 맛있는 일이네요. 적당히 일하고, 결과적으로 빵 하나를 맛있게 먹는 법도 알고.",,n045
+detective_short_ep5,n045,l045,45,탐정,Detective,-1,Detective_0,,,,잠시 머리를 굴릴 일은 되었네. 네 말대로 맛도 있고. 음. 나도 앞으로 디저트를 에어프라이어에 돌려먹어 볼까.,,n046
+detective_short_ep5,n046,l046,46,조수,Assist,2,Assist_0,,,,......왜 생크림 케이크를 들고 가시는 거지요?,,n047
+detective_short_ep5,n047,l047,47,탐정,Detective,-1,Detective_0,,,,인간의 발전은 터무니없는 시도에서 나오는 거니까.,,n048
+detective_short_ep5,n048,l048,48,나레이션,Narration,1,Narration_0,,,,"당연히 실패했지만, 탐정은 아까워서 다 먹을 수밖에 없었다.",,
